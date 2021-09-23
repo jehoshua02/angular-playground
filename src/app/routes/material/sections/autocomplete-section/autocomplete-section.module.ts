@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AutocompleteSectionComponent } from './autocomplete-section.component';
+import { AutocompleteExampleOneModule } from './examples/autocomplete-example-one/autocomplete-example-one.module';
 
 
 
@@ -9,7 +10,8 @@ import { AutocompleteSectionComponent } from './autocomplete-section.component';
     AutocompleteSectionComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    AutocompleteExampleOneModule
   ],
   exports: [
     AutocompleteSectionComponent
